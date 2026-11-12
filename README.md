@@ -2,7 +2,9 @@
 
 An independent working visual walkthrough of Yutai’s supplied design contract, prepared for design discussion. It is not the production Yutai app or a statement of product readiness.
 
-[Open the walkthrough](https://nonprophet-max.github.io/yutai-design/)
+**Hosting status:** the repository is private. The requested public GitHub Pages URL is not live: GitHub rejected setup because the current account plan does not support Pages from this private repository. No public-code or billing change was made.
+
+The guide works locally: serve this directory with a static web server, then open its local URL. BrunoPessoa22 has been invited as a standard repository collaborator; access depends on accepting that invitation.
 
 Eight chapters cover colour, typography, components, holder and operator specimens, layout/rules, and proposed edits. The review frame uses the documentation palette; product specimens use their respective source rules.
 
@@ -10,7 +12,7 @@ Eight chapters cover colour, typography, components, holder and operator specime
 
 Use **Try changes** to compare a local proposal against the source specimen. Drafts and review notes are stored in this browser on this device. **Export review** creates a JSON file you can share; **Import review** restores a compatible review. **Export CSS** creates proposed variables for later implementation. These controls do not change GitHub or the product.
 
-To change the guide itself, edit `app.js` for content/interactions, `style.css` for presentation, and `data.js` for the attributed baseline. GitHub Pages serves the `main` branch from the repository root. No build step or application dependencies are required. A local static web server can be used for development.
+To change the guide itself, edit `app.js` for content/interactions, `style.css` for presentation, and `data.js` for the attributed baseline. The intended GitHub Pages source is the `main` branch from the repository root, pending account-plan support. No build step or application dependencies are required. A local static web server can be used for development.
 
 ## Source and boundary
 
