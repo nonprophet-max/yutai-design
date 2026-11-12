@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An interactive visual review of Yutai’s design system. Explore the source baseline and try separate design proposals.">
+  <meta name="theme-color" content="#F4F1E7">
+  <title>Yutai · Design review</title>
+  <link rel="icon" href="assets/yutai-logo-light.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <a class="identity" href="#start" aria-label="Yutai design review home"><img src="assets/yutai-logo-light.svg" alt="Yutai" width="93" height="30"><span>Design review</span></a>
+    <div class="mast-actions"><span class="draft-label">Working review · v1</span><a class="text-link" href="https://github.com/nonprophet-max/yutai-design" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <aside class="navigation" aria-label="Walkthrough navigation">
+    <p class="nav-title">Explore the system</p>
+    <nav id="desktop-nav" aria-label="Design chapters"></nav>
+    <label class="mobile-nav">Choose a chapter<select id="chapter-select" aria-label="Choose a chapter"></select></label>
+    <div class="nav-foot"><p>Based on DESIGN.md</p><a class="source-ref" href="https://github.com/BrunoPessoa22/special-project/blob/6e9bba6237d9f6296e41d71a105c7b190074205a/docs/DESIGN.md" target="_blank" rel="noopener">12 Nov 2026 · <code>6e9bba6</code> ↗</a><p class="small">Visual specimens only.<br>No account or live app connection.</p></div>
+  </aside>
+  <main id="main" tabindex="-1">
+    <div class="preview-toolbar"><span id="chapter-context">Source baseline</span><div class="look-control"><span>Preview look</span><div class="segmented" role="group" aria-label="Preview look"><button type="button" data-look="light" aria-pressed="true">Light</button><button type="button" data-look="dark" aria-pressed="false">Dark</button></div></div></div>
+    <div id="chapter"></div>
+    <footer class="page-footer"><span id="footer-rule">A design contract, translated into things you can see.</span><button class="next-chapter quiet" id="next-chapter" type="button">Explore colour <span aria-hidden="true">→</span></button></footer>
+  </main>
+  <div id="announcement" role="status" aria-live="polite" class="toast" hidden></div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-head"><h2 id="detail-title">Review specimen</h2><button id="close-detail" class="secondary" type="button">Close</button></div><div id="detail-body"></div></dialog>
+  <noscript><p class="no-script">This interactive review needs JavaScript. The source design contract is available through the DESIGN.md link.</p></noscript>
+</body>
+</html>
