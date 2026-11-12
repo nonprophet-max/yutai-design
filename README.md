@@ -6,7 +6,15 @@ An independent working visual walkthrough of Yutai’s supplied design contract,
 
 The repository and GitHub Pages site are public, as requested. BrunoPessoa22 has been invited as a standard repository collaborator. Draft design edits stay local unless exported or committed.
 
-Eight chapters cover colour, typography, components, holder and operator specimens, layout/rules, and proposed edits. The review frame uses the documentation palette; product specimens use their respective source rules.
+Nine chapters cover the supplied brand kit, colour, typography, components, holder and operator specimens, layout/rules, and proposed edits. The review frame uses the documentation palette; product specimens use their respective source rules.
+
+## Agent-ready skill
+
+[Download the portable skill](https://nonprophet-max.github.io/yutai-design/downloads/Yutai-Design-Skill.zip) · [Read SKILL.md](skills/yutai-design/SKILL.md) · [Explore the brand kit](https://nonprophet-max.github.io/yutai-design/#brand)
+
+Unpack the ZIP and ask an agent to read `yutai-design/SKILL.md` before designing. The exact 48-file package includes all 28 supplied SVG/PNG artworks, six font faces and licences, scoped tokens and surface/claim guidance. It is also available unzipped under `skills/yutai-design/`. No private validation files, research archive or raw product source is included. Guidance is not automatic runtime enforcement.
+
+The kit supplied on 12 November 2026 updates general identity. It does not silently replace Holder/Admin V2 or the documentation palette. Faithful product specimens retain their source marks. The new kit is used for the guide’s general masthead. Noto Sans JP is specified but not bundled; Japanese logo artwork is outlined. The Benefits badge is catalogued with its verified-live-benefit conditions, not used to imply a programme exists.
 
 ## Review and edit
 

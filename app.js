@@ -2,7 +2,7 @@
 (() => {
   const SOURCE = `https://github.com/BrunoPessoa22/special-project/blob/${YUTAI_DATA.ref}/docs/DESIGN.md`;
   const CHAPTERS = [
-    ['start', 'Start here', 'home'], ['colour', 'Colour', 'colour'], ['type', 'Typography', 'type'],
+    ['start', 'Start here', 'home'], ['brand', 'Brand kit', 'parts'], ['colour', 'Colour', 'colour'], ['type', 'Typography', 'type'],
     ['components', 'Components', 'parts'], ['holder', 'Holder experience', 'holder'],
     ['admin', 'Operator experience', 'admin'], ['rules', 'Layout & rules', 'rules'], ['review', 'Try changes', 'edit']
   ];
@@ -79,6 +79,21 @@
   }
   function holderMini() {
     return `<div class="specimen" data-theme="${state.look}"><div class="sample-head"><img src="${logo()}" alt="Yutai" class="sample-logo"><span>Holder specimen</span></div><div class="sample-body">${company()}<div class="held"><strong>452</strong><span>days</span></div>${track()}<h3 class="sample-section-title">Ready to claim</h3>${ticket()}</div><div class="sample-foot"><span>Time held becomes something tangible.</span><span class="status-word"><i class="ready-dot" aria-hidden="true"></i>Earned</span></div></div>`;
+  }
+  const BRAND_ROOT = 'skills/yutai-design/assets/brand-kit';
+  function brandAsset(file,label,tone='light',kind='horizontal') {
+    return `<figure class="brand-art ${tone} ${kind}"><div class="brand-art-stage"><img src="${BRAND_ROOT}/svg/${file}.svg" alt="${label}" loading="lazy"></div><figcaption><strong>${label}</strong><span><a href="${BRAND_ROOT}/svg/${file}.svg" download>SVG</a><a href="${BRAND_ROOT}/png/${file}.png" download>PNG</a></span></figcaption></figure>`;
+  }
+  function brand() {
+    const palette=[['Ink','#030817'],['Night','#061031'],['Indigo','#0B1A47'],['Signal green','#2BF59A'],['Mist','#EAF0FF'],['Haze','#B8C4E6'],['Slate','#8C9AC4'],['Rule','#1C2F6B']];
+    return head('The Yutai identity, ready to use.','The supplied brand kit brings the general identity and agent-ready assets together. Product-zone specimens retain their own dated rules; this addition does not replace them.',`<div class="source-line">Supplied by Max · 12 November 2026 · <a href="skills/yutai-design/references/brand-kit-readme.txt">Original kit notes ↗</a></div>`)+
+    `<div class="brand-downloads"><a class="primary-link" href="downloads/Yutai-Design-Skill.zip" download>Download agent skill <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/nonprophet-max/yutai-design/blob/main/skills/yutai-design/SKILL.md" target="_blank" rel="noopener">Read the skill ↗</a><p>48 files · logos, fonts, tokens and usage guidance. No installation or live product connection.</p></div>
+    <section class="section-block brand-primary"><div class="section-heading"><h2>The primary mark</h2><p>Use the supplied artwork. Preserve its aspect ratio and colours.</p></div><div class="brand-art-grid">${brandAsset('yutai-lockup-horizontal-ink','Horizontal · ink')}${brandAsset('yutai-lockup-horizontal-on-dark','Horizontal · on dark','dark')}${brandAsset('yutai-lockup-horizontal-white','Horizontal · white','indigo')}</div></section>
+    <section class="section-block"><div class="section-heading"><h2>Marks for each space</h2><p>Prefer SVG. PNG alternatives are supplied for tools that need them.</p></div><div class="brand-art-grid">${brandAsset('yutai-lockup-stacked-ink','Stacked · ink','light','stacked')}${brandAsset('yutai-lockup-stacked-on-dark','Stacked · on dark','dark','stacked')}${brandAsset('yutai-lockup-stacked-white','Stacked · white','indigo','stacked')}${brandAsset('yutai-seal-ink','Seal · ink','light','seal')}${brandAsset('yutai-seal-green','Seal · green','dark','seal')}${brandAsset('yutai-seal-white','Seal · white','indigo','seal')}${brandAsset('yutai-wordmark-ink','Wordmark · ink','light','wordmark')}${brandAsset('yutai-wordmark-white','Wordmark · Mist','dark','wordmark')}${brandAsset('yutai-avatar','Profile avatar','light','avatar')}</div><p class="public-note">The file named “wordmark-white” is painted Mist (#EAF0FF). Its supplied colour is preserved. Stacked Japanese artwork is outlined; no Japanese font is needed to display it.</p></section>
+    <section class="section-block"><h2>The general brand palette</h2><p class="brand-reading">These are identity colours, separate from the linen documentation palette and Holder / Admin V2 roles. A green logo does not make green the general action colour in a product specimen.</p><div class="brand-palette">${palette.map(([name,hex])=>`<div class="brand-swatch"><span style="background:${hex}" aria-hidden="true"></span><strong>${name}</strong><code>${hex}</code></div>`).join('')}</div></section>
+    <section class="section-block"><h2>A live-benefit signal, used carefully.</h2><p class="brand-reading">“Benefits by yutai” is documented here as artwork, not as a live programme claim. Use it next to an instrument only after verifying all of the conditions below.</p><div class="brand-badge-row">${brandAsset('yutai-badge-benefits-light','Benefits badge · light','light','badge')}${brandAsset('yutai-badge-benefits-dark','Benefits badge · dark','dark','badge')}</div><ul class="brand-conditions"><li>At least one verified live benefit for that instrument.</li><li>A working link to the benefit details.</li><li>The same terms for every eligible holder.</li><li>No encouragement to acquire a security.</li></ul><p class="public-note">Fictional programme invitations and seeded catalogue examples do not qualify. Use the ordinary Yutai mark for general attribution instead.</p></section>
+    <section class="section-block"><h2>Keep the identity intact.</h2><dl class="brand-usage"><div><dt>Space</dt><dd>Leave at least one quarter of the rendered seal height clear on every side.</dd></div><div><dt>Size</dt><dd>Seal: 16px / 6mm minimum. Horizontal lockup: 80px / 24mm wide minimum. Benefits badge: 24px tall minimum.</dd></div><div><dt>Typography</dt><dd>Sora for headlines / UI; DM Mono for code and labels. Source Sans 3 stays available for reading text and the selected presentation direction. Six font faces and their licences are bundled.</dd></div><div><dt>Japanese</dt><dd>Noto Sans JP is specified by the kit but is not bundled. Do not claim that font is loaded. Supplied Japanese logos are outlines.</dd></div><div><dt>Names</dt><dd>Write Yutai in prose. The outlined wordmark is lowercase yutai; never recreate it as typed text.</dd></div><div><dt>Permission</dt><dd>Do not stretch, redraw, retint or imply an endorsement. A mark and the supplied technology-provider positioning do not prove a partnership, licence or product readiness.</dd></div></dl><p class="brand-reading"><a href="skills/yutai-design/references/brand-kit.md">Read the complete asset routing and usage rules ↗</a> · <a href="skills/yutai-design/references/tokens.json">View scoped tokens ↗</a></p></section>
+    <section class="section-block brand-agent"><h2>Give an agent the right starting point.</h2><p class="brand-reading">Download and unpack the skill, then ask the agent to read <code>yutai-design/SKILL.md</code> before designing. It routes to the right surface, asset, font and claims guidance. The old product logos remain historical references for faithful product specimens.</p><p class="brand-reading">The package is portable guidance and source assets. It does not install automatic hooks, publish a design or certify an agent’s output.</p><a class="primary-link" href="downloads/Yutai-Design-Skill.zip" download>Download agent skill <span aria-hidden="true">↓</span></a></section>`;
   }
   function start() {
     return head('Yutai, made visible.','A walkthrough of the design contract. See how the identity becomes an experience, then try changes beside the original.',refs(['H2','holder'],['A2','admin'],['DV1','docs']))+
@@ -184,12 +199,13 @@
     document.querySelector('#detail-dialog').showModal();
   }
   function render() {
-    const renderers={start,colour,type,components,holder,admin,rules,review};
+    const renderers={start,brand,colour,type,components,holder,admin,rules,review};
     document.querySelector('#chapter').innerHTML=renderers[state.chapter]();
     document.querySelectorAll('[data-look]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.look===state.look));
     document.querySelectorAll('#desktop-nav a').forEach(a=>a.getAttribute('href')==='#'+state.chapter?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));
     document.querySelector('#chapter-select').value=state.chapter;
-    document.querySelector('#chapter-context').textContent=state.chapter==='review'?'Baseline & proposal':'Source baseline';
+    document.querySelector('.look-control').hidden=state.chapter==='brand';
+    document.querySelector('#chapter-context').textContent=state.chapter==='review'?'Baseline & proposal':state.chapter==='brand'?'Supplied brand kit':'Source baseline';
     const i=CHAPTERS.findIndex(c=>c[0]===state.chapter),next=CHAPTERS[(i+1)%CHAPTERS.length];
     document.querySelector('#next-chapter').innerHTML=`${next[0]==='start'?'Back to start':'Explore '+next[1].toLowerCase()} <span aria-hidden="true">→</span>`;
     document.title='Yutai · '+CHAPTERS[i][1]+' · Design review';

@@ -1,0 +1,384 @@
+{
+  "source_ref": "6e9bba6237d9f6296e41d71a105c7b190074205a",
+  "date": "2026-11-12",
+  "files": [
+    {
+      "path": "logos/yutai-logo-light.svg",
+      "sha256": "92bf0ddac0c7708db43eb39326722da4bc2142260c4f5ed11790e7c097c9cb29",
+      "origin": "BrunoPessoa22/special-project/packages/ui/brand/logos/yutai-logo-light.svg",
+      "status": "historical-product-reference; not current general communication default"
+    },
+    {
+      "path": "logos/yutai-logo-dark.svg",
+      "sha256": "196d516923de146ea7eae4164a9bf80043faf1bad6ee60aace3891fe869cc9cd",
+      "origin": "BrunoPessoa22/special-project/packages/ui/brand/logos/yutai-logo-dark.svg",
+      "status": "historical-product-reference; not current general communication default"
+    },
+    {
+      "path": "fonts/sora-latin-600-normal.woff2",
+      "sha256": "fa9ab76f30510ad92153c6d6d72d0508884b85e9f0148abdfa963231b2a4845a",
+      "origin": "@fontsource/sora",
+      "version": "5.3.0"
+    },
+    {
+      "path": "fonts/sora-latin-700-normal.woff",
+      "sha256": "04a29da140ba5c977a4acdd6065d2673c74d65547324f37b4c97736f4a31fd05",
+      "origin": "BrunoPessoa22/special-project/apps/site/public/brand/fonts/sora-latin-700-normal.woff",
+      "version": null
+    },
+    {
+      "path": "fonts/source-sans-3-latin-400-normal.woff2",
+      "sha256": "0f73f35e08cde0a2f10c109c6e01d71459d97e4099ecd9a50f1b6c0209e4de2b",
+      "origin": "@fontsource/source-sans-3",
+      "version": "5.3.1"
+    },
+    {
+      "path": "fonts/source-sans-3-latin-600-normal.woff2",
+      "sha256": "14527d193b0e30bc32ef931549a246cdfd286573bb12869b7e052b8101a39d38",
+      "origin": "@fontsource/source-sans-3",
+      "version": "5.3.1"
+    },
+    {
+      "path": "fonts/dm-mono-latin-400-normal.woff",
+      "sha256": "1736dbec4c2da8403e7cf80523dbe77b00bff5fe9b3c0f2a953032ad5d84869a",
+      "origin": "BrunoPessoa22/special-project/apps/site/public/brand/fonts/dm-mono-latin-400-normal.woff",
+      "version": null
+    },
+    {
+      "path": "fonts/dm-mono-latin-500-normal.woff2",
+      "sha256": "9964608a849396bd00c4bfd7034afe03486469dcf20b4f6b8cbdfdd310369951",
+      "origin": "@fontsource/dm-mono",
+      "version": "5.3.0"
+    },
+    {
+      "path": "fonts/sora-LICENSE.txt",
+      "sha256": "1ec9623d38c445eb4dfe5fcc783e0f0ee728cc97ca157ce1f8cb2b3bf9d9b0d9",
+      "origin": "@fontsource/sora",
+      "version": "5.3.0"
+    },
+    {
+      "path": "fonts/source-sans-3-LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "origin": "@fontsource/source-sans-3",
+      "version": "5.3.1"
+    },
+    {
+      "path": "fonts/dm-mono-LICENSE.txt",
+      "sha256": "d2766c396a8534cba53340f8af2037749b6a0a1dd3587348c917a70e779d2e32",
+      "origin": "@fontsource/dm-mono",
+      "version": "5.3.0"
+    },
+    {
+      "path": "brand-kit/svg/yutai-avatar.svg",
+      "format": "svg",
+      "bytes": 692,
+      "sha256": "c662434071e07e07a68ef7b0eb54a5d50d364d4011e505a7749d039356030e0d",
+      "width": 400.0,
+      "height": 400.0,
+      "viewBox": "0 0 400 400",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-badge-benefits-dark.svg",
+      "format": "svg",
+      "bytes": 8891,
+      "sha256": "dddccafd8db337d158c118ab3216846e70d132d16c2c6ca141221cfdb5b2f4bf",
+      "width": 194.0,
+      "height": 40.0,
+      "viewBox": "0 0 194 40",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-badge-benefits-light.svg",
+      "format": "svg",
+      "bytes": 8891,
+      "sha256": "88b6106a91451bf3364ac91b441818073839b6110b19b4ca038b305cc93145ff",
+      "width": 194.0,
+      "height": 40.0,
+      "viewBox": "0 0 194 40",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-horizontal-ink.svg",
+      "format": "svg",
+      "bytes": 3946,
+      "sha256": "ca335f7adb6e540ca82952746c92828093c1fd26147cdc8ec15310120be38c5d",
+      "width": 280.0,
+      "height": 90.0,
+      "viewBox": "0 0 280 90",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-horizontal-on-dark.svg",
+      "format": "svg",
+      "bytes": 3946,
+      "sha256": "7af1206eba5ea94a340b16a93c33ed5cafdbb8bee9930cba0ddc0480ce1b16c5",
+      "width": 280.0,
+      "height": 90.0,
+      "viewBox": "0 0 280 90",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-horizontal-white.svg",
+      "format": "svg",
+      "bytes": 3946,
+      "sha256": "d5a99fc0c7db7ea654dad37af601801f801e7b29a5a0c3f75061926fae051f29",
+      "width": 280.0,
+      "height": 90.0,
+      "viewBox": "0 0 280 90",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-stacked-ink.svg",
+      "format": "svg",
+      "bytes": 8050,
+      "sha256": "41d84ada054a7d7f9757b2d94a59595a111db4e7c50aaaf6598b78c10cc0fede",
+      "width": 200.0,
+      "height": 190.0,
+      "viewBox": "0 0 200 190",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-stacked-on-dark.svg",
+      "format": "svg",
+      "bytes": 8050,
+      "sha256": "a8ad7138ba2f4b7111765dbcf31c1290c13273b677df2b7ca5d02d24c5b68326",
+      "width": 200.0,
+      "height": 190.0,
+      "viewBox": "0 0 200 190",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-lockup-stacked-white.svg",
+      "format": "svg",
+      "bytes": 8050,
+      "sha256": "66a7dea3196927919f0da2f24bca6c3c713e7729c139c87c1675091ce957c662",
+      "width": 200.0,
+      "height": 190.0,
+      "viewBox": "0 0 200 190",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-seal-green.svg",
+      "format": "svg",
+      "bytes": 634,
+      "sha256": "5fca890cc7385502b4897920496dcbb44848e15fe1c1851765508e3961d2f81b",
+      "width": 64.0,
+      "height": 64.0,
+      "viewBox": "0 0 64 64",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-seal-ink.svg",
+      "format": "svg",
+      "bytes": 634,
+      "sha256": "d4b9196fe3f11b4b78edaa28b279288419089569e7fc81ee673a2535ffff97e5",
+      "width": 64.0,
+      "height": 64.0,
+      "viewBox": "0 0 64 64",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-seal-white.svg",
+      "format": "svg",
+      "bytes": 634,
+      "sha256": "b37a17b128ef59a716994d2c3eaeea667327ef490105e90bd31f1d95659adc98",
+      "width": 64.0,
+      "height": 64.0,
+      "viewBox": "0 0 64 64",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-wordmark-ink.svg",
+      "format": "svg",
+      "bytes": 3419,
+      "sha256": "2cda8a8d75508d1d6708e71cade4a77d799d58dbaf556583fc3834ce7b693fe2",
+      "width": 154.0,
+      "height": 66.0,
+      "viewBox": "0 0 154 66",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/svg/yutai-wordmark-white.svg",
+      "format": "svg",
+      "bytes": 3419,
+      "sha256": "d937d40b8678a890e87bd687e6542c82e74e889fc384be12a576823c0abafbe1",
+      "width": 154.0,
+      "height": 66.0,
+      "viewBox": "0 0 154 66",
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-avatar.png",
+      "format": "png",
+      "bytes": 18069,
+      "sha256": "8195efd118e1c11b73dbdb03e4b87e0807a6687fdbbf557a63fbc4a5e0b0da41",
+      "width": 1000,
+      "height": 1000,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-badge-benefits-dark.png",
+      "format": "png",
+      "bytes": 16186,
+      "sha256": "f4ccb7a8bb94a6c6007ca363a85d8a813a45371aab7cf14b36143058872cf019",
+      "width": 800,
+      "height": 165,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-badge-benefits-light.png",
+      "format": "png",
+      "bytes": 15979,
+      "sha256": "14c9221d54e63f517b1e4c09e2ddb3fd246363b156e1bc255069fd92212c4a03",
+      "width": 800,
+      "height": 165,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-horizontal-ink.png",
+      "format": "png",
+      "bytes": 39233,
+      "sha256": "07ea294caed2439ce949955ba7485e6ff469ffa6b46400d233aa0041705990b5",
+      "width": 1600,
+      "height": 514,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-horizontal-on-dark.png",
+      "format": "png",
+      "bytes": 34597,
+      "sha256": "4183905043a6f73e99346195588e728089000edb0f85641c23740a6732f5dd95",
+      "width": 1600,
+      "height": 514,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-horizontal-white.png",
+      "format": "png",
+      "bytes": 35538,
+      "sha256": "e32b56ff77a7e6b83cacedcd0b08687f2147c26f975f218ba19af1fae5ac15d3",
+      "width": 1600,
+      "height": 514,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-stacked-ink.png",
+      "format": "png",
+      "bytes": 36088,
+      "sha256": "85769fa0bed72c3d772c2dda930bfdab56cf94dc40b0cd75c371617f18fa149d",
+      "width": 1000,
+      "height": 950,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-stacked-on-dark.png",
+      "format": "png",
+      "bytes": 32527,
+      "sha256": "1272a1250cb1cf8027061db9486b5ce0fc96026d0c0fe6bf422a0691dd0ba614",
+      "width": 1000,
+      "height": 950,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-lockup-stacked-white.png",
+      "format": "png",
+      "bytes": 33331,
+      "sha256": "faafd8c794c624b20028001f8282a8a26f20586a75abe1cf5d94049f000b61c3",
+      "width": 1000,
+      "height": 950,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-seal-green.png",
+      "format": "png",
+      "bytes": 28631,
+      "sha256": "2c54c44d156c3342cee9b6b6ec3e53edaf114dd621a10578802e5dc218ea98cd",
+      "width": 1024,
+      "height": 1024,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-seal-ink.png",
+      "format": "png",
+      "bytes": 27951,
+      "sha256": "e62084716ba949e87f16f11c93bf2dfeb2cd5979ba7398057c0cce42e3cf355d",
+      "width": 1024,
+      "height": 1024,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-seal-white.png",
+      "format": "png",
+      "bytes": 30543,
+      "sha256": "2777391c30113521ac41e2516cc5a1fb57cd421b24cee9306d68ce13287d29ab",
+      "width": 1024,
+      "height": 1024,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-wordmark-ink.png",
+      "format": "png",
+      "bytes": 33061,
+      "sha256": "429deff2f5c1f7088c503cacb056c2df4736475f8473c3651fab310819a39aec",
+      "width": 1200,
+      "height": 514,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    },
+    {
+      "path": "brand-kit/png/yutai-wordmark-white.png",
+      "format": "png",
+      "bytes": 27603,
+      "sha256": "720a4d036ed18df7601aaa7d1b87f6294f2611166e24041cec2ef0cf62b56882",
+      "width": 1200,
+      "height": 514,
+      "origin": "user-supplied yutai-brand-kit.zip",
+      "origin_zip_sha256": "b4b6f62f87e99f81e4516353577c906d3ac2ffdef9233f80f9298f52405276ce"
+    }
+  ],
+  "product_design_source_ref": "6e9bba6237d9f6296e41d71a105c7b190074205a",
+  "source_priority": [
+    {
+      "kind": "user-supplied-brand-kit",
+      "applies_to": "Current general communication artwork, names, palette, clear-space and badge restrictions",
+      "manifest": "brand-kit/provenance.json"
+    },
+    {
+      "kind": "product-design-contract",
+      "ref": "6e9bba6237d9f6296e41d71a105c7b190074205a",
+      "applies_to": "Versioned product-zone rules and historical source artwork"
+    }
+  ],
+  "primary_communication_artwork": {
+    "light": "brand-kit/svg/yutai-lockup-horizontal-ink.svg",
+    "dark": "brand-kit/svg/yutai-lockup-horizontal-on-dark.svg",
+    "photo_or_coloured_background": "brand-kit/svg/yutai-lockup-horizontal-white.svg"
+  }
+}
