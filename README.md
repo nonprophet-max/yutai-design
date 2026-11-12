@@ -6,7 +6,7 @@ An independent working visual walkthrough of Yutai’s supplied design contract,
 
 The repository and GitHub Pages site are public, as requested. BrunoPessoa22 has been invited as a standard repository collaborator. Draft design edits stay local unless exported or committed.
 
-Nine chapters cover the supplied brand kit, colour, typography, components, holder and operator specimens, layout/rules, and proposed edits. The review frame uses the documentation palette; product specimens use their respective source rules.
+Nine chapters cover the supplied brand kit, colour, typography, components, holder and operator specimens, layout/rules, and proposed edits. The review frame uses the official website’s primary white background (`#FFFFFF`), as requested on 12 November 2026. Product specimens and palette examples retain their respective source rules, including the documentation’s linen palette.
 
 ## Agent-ready skill
 

@@ -1,11 +1,17 @@
 {
-  "release": "design-review-v2-brand-kit",
+  "release": "design-review-v2-white-shell",
   "sourceRef": "6e9bba6237d9f6296e41d71a105c7b190074205a",
   "sourceDate": "12 Nov 2026",
   "status": "working-design-review",
   "appsha256": "a86d203aafcc4cde6fbaaa4d2879a52d15fffd766cda6bdd3f492673c37fa570",
-  "csssha256": "4d85c232a5814f87f9700412553a07fd97862cbc45596b5b2af6b600cb8f0e21",
+  "csssha256": "3a850e95619c4c4b4d09eba9ea673700f1bdc79013d838dad14810df9bf3d9b3",
   "brandKitDate": "12 Nov 2026",
   "skillFiles": 48,
-  "skillZipSha256": "2368afc4cc99ca5fe94d82820b24ec0904151828d58978ca8b5f106b47f3ecc8"
+  "skillZipSha256": "2368afc4cc99ca5fe94d82820b24ec0904151828d58978ca8b5f106b47f3ecc8",
+  "walkthroughShell": {
+    "background": "#FFFFFF",
+    "source": "https://yutai.com/",
+    "observedDate": "12 Nov 2026",
+    "scope": "walkthrough frame only, source specimen palettes unchanged"
+  }
 }
