@@ -3,7 +3,7 @@
      width="100%" role="img" aria-labelledby="japan-adoption-title japan-adoption-desc"
      preserveAspectRatio="xMidYMid meet" style="display:block;max-width:100%;height:auto">
   <title id="japan-adoption-title">Japan: 36.5% of Nomura IR&#x27;s listed-security universe offered shareholder benefits</title>
-  <desc id="japan-adoption-desc">Nomura IR counted 1,657 benefit-offering listed securities in Japan at 31 December 2025, 36.5% of its universe, which includes REITs and ETFs. The remaining 63.5% is the arithmetic complement of the rounded source rate, not a separately reported exact rate. No universe count or retention effect is inferred.</desc>
+  <desc id="japan-adoption-desc">Nomura IR counted 1,657 benefit-offering listed securities in Japan at December 31, 2025, 36.5% of its universe, which includes REITs and ETFs. The remaining 63.5% is the arithmetic complement of the rounded source rate, not a separately reported exact rate. No universe count or retention effect is inferred.</desc>
   <metadata>Created 2026-11-20. Direct SVG geometry. Source review 2026-11-19. See chart-data.json.</metadata>
   <style>
     text { fill: #030817; font-variant-numeric: tabular-nums; }
