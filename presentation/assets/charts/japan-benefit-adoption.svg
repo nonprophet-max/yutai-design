@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300"
+     width="100%" role="img" aria-labelledby="japan-adoption-title japan-adoption-desc"
+     preserveAspectRatio="xMidYMid meet" style="display:block;max-width:100%;height:auto">
+  <title id="japan-adoption-title">Japan: 36.5% of Nomura IR&#x27;s listed-security universe offered shareholder benefits</title>
+  <desc id="japan-adoption-desc">Nomura IR counted 1,657 benefit-offering listed securities in Japan at 31 December 2025, 36.5% of its universe, which includes REITs and ETFs. The remaining 63.5% is the arithmetic complement of the rounded source rate, not a separately reported exact rate. No universe count or retention effect is inferred.</desc>
+  <metadata>Created 2026-11-20. Direct SVG geometry. Source review 2026-11-19. See chart-data.json.</metadata>
+  <style>
+    text { fill: #030817; font-variant-numeric: tabular-nums; }
+    .value { font-family: Sora, sans-serif; font-weight: 600; font-size: 76px; letter-spacing: -3px; }
+    .label { font-family: 'Source Sans 3', sans-serif; font-weight: 400; font-size: 30px; }
+    .count { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 32px; }
+    /* Labels remain directly attached to their segments. The parent provides
+       a responsive composition and a prose/data alternative at narrow widths. */
+  </style>
+  <g aria-hidden="true">
+    <text class="value" x="32" y="82">36.5%</text>
+    <text class="label" x="32" y="126">Benefit-offering</text>
+    <text class="value" x="397.64" y="82">63.5%</text>
+    <text class="label" x="397.64" y="126">Remaining universe</text>
+    <rect id="benefit-segment" x="32" y="150"
+          width="341.64" height="64" fill="#15245A" />
+    <rect id="remainder-segment" x="373.64" y="150"
+          width="594.36" height="64" fill="#858A94" />
+    <text class="count" x="32" y="268">1,657 securities</text>
+  </g>
+</svg>
